@@ -35,10 +35,10 @@ npm install --save ceZarMax/Projets-Perso-Blockchain-Simple
 **Étape 1 :** Générer sa clée publique et privée.<br/>
 <br/>![](https://imgur.com/tRVyN72.png)
 
-**Étape 2 :**Copier sa clée privée dans le fichier main.js.
+**Étape 2 :** Copier sa clée privée dans le fichier main.js.
 <br/><br/>![](https://imgur.com/o17dgcK.png)
 
-**Étape 3 :**Partie test.
+**Étape 3 :** Partie test.
 <br/><br/>![](https://imgur.com/hxhbFdK.png)
 
 <br/><br/>
