@@ -126,7 +126,7 @@ class Block {
       this.hash = this.calculateHash();
     }
 
-    debug(`Block miné: ${this.hash}`);
+    console.log(`Block miné: ${this.hash}`);
   }
 
   /**
@@ -197,7 +197,7 @@ class Blockchain {
     );
     block.mineBlock(this.difficulty);
 
-    debug('Bloc miné avec succès !');
+    console.log('Bloc miné avec succès !');
     this.chain.push(block);
 
     this.pendingTransactions = [];
@@ -252,7 +252,7 @@ class Blockchain {
     }
 
     this.pendingTransactions.push(transaction);
-    debug('Transaction ajoutée: %s', transaction);
+    console.log('Transaction ajoutée: %s', transaction);
   }
 
   /**
@@ -276,7 +276,7 @@ class Blockchain {
       }
     }
 
-    debug("Obtenir le solde d'une adresse : %s", balance);
+    console.log("Obtenir le solde d'une adresse : %s", balance);
     return balance;
   }
 
@@ -298,7 +298,7 @@ class Blockchain {
       }
     }
 
-    debug('Obtenir le nombre de transactions pour un portefeuille donné : %s', txs.length);
+    console.log('Obtenir le nombre de transactions pour un portefeuille donné : %s', txs.length);
     return txs;
   }
 
