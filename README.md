@@ -22,28 +22,13 @@ Début d'une blockchain voulant se rapprocher de BITCOIN. Vous pouvez voir les b
   - Vérification entière de la blockchain (pour éviter toutes altérations de bloc précédent !)
   - Génération de wallet (clé privée/publique)
   - Signature des transactions
-  
-  Algorithme de preuve de travail simple
-Vérification de la blockchain (pour prévenir la falsification)
-Génération de portefeuille (clé privée/publique)
-Signature des transactions
 
 ## 🏁 Installation <a name = "getting_started"></a>
 
 Installez les dépendances :
 ```
-cd savjeecoin-frontend
-npm install
+npm install --save ceZarMax/Projets-Perso-Blockchain-Simple
 ```
-
-Exécutez l'application :
-
-```
-npm start
-```
-
-À ce stade, l'application doit fonctionner sur votre machine sur [http://localhost:4200](http://localhost:4200)
-
 
 ## 📸 Screenshots
 
