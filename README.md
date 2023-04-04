@@ -3,8 +3,6 @@
  <img src="https://i.imgur.com/8qK310p.png" alt="Project logo"></a>
 </p>
 
-<h3 align="center">ceZarCoin Frontend</h3>
-
 <div align="center">
 
 
